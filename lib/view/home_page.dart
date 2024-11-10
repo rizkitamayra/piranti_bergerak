@@ -1,7 +1,10 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:test4/controller/feed_controller.dart';
+=======
+>>>>>>> 3772646adf1323b244941bc737aecbe8be05ab8e
 import 'package:test4/view/feed_card.dart';
 
 class HomePage extends StatefulWidget {
@@ -12,6 +15,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+<<<<<<< HEAD
   get feedController => null;
 
   @override
@@ -30,6 +34,23 @@ class _HomePageState extends State<HomePage> {
       ),
    ),
    );
+=======
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text(
+        'Instagram',
+         style: TextStyle(fontWeight: FontWeight.w600),),),
+   body: ListView(
+    children: [
+  FeedCard(),
+  FeedCard(),
+  FeedCard()
+    ],
+   ),
+    );
+ 
+>>>>>>> 3772646adf1323b244941bc737aecbe8be05ab8e
   }
 }
 
