@@ -4,7 +4,7 @@ import 'package:sesi44/controller/feed_controller.dart';
 import 'package:sesi44/model/feed.dart';
 
 class FeedCard extends StatefulWidget {
- final Feed feed;
+  final Feed feed;
 
   const FeedCard({
     super.key,
@@ -12,7 +12,6 @@ class FeedCard extends StatefulWidget {
   });
 
   @override
-  // ignore: library_private_types_in_public_api
   _FeedCardState createState() => _FeedCardState();
 }
 
@@ -50,13 +49,15 @@ class _FeedCardState extends State<FeedCard> {
                 Row(
                   children: [
                     IconButton(
-                      onPressed: ()  {
-                        context.read<FeedController>().like
-                        (widget.feed);
+                      onPressed: () {
+                        context.read<FeedController>().like(widget.feed);
                       },
-                      icon: Icon(widget.feed.content.isLike? Icons.
-                      favorite: Icons.favorite_outline),
+                      icon: Icon(
+                        widget.feed.content.isLike
+                            ? Icons.favorite
+                            : Icons.favorite_outline,
                       ),
+                    ),
                     IconButton(
                       icon: const Icon(Icons.comment),
                       onPressed: () {
@@ -71,7 +72,18 @@ class _FeedCardState extends State<FeedCard> {
                     ),
                   ],
                 ),
-                const Icon(Icons.bookmark_border),
+                // Tombol Bookmark dengan toggle isBookmarked
+                IconButton(
+                  icon: Icon(
+                    widget.feed.content.isBookmarked
+                        ? Icons.bookmark
+                        : Icons.bookmark_border,
+                  ),
+                  onPressed: () {
+                    // Menggunakan FeedController untuk toggle status bookmark
+                    context.read<FeedController>().toggleBookmark(widget.feed);
+                  },
+                ),
               ],
             ),
           ),
