@@ -6,41 +6,41 @@ class FeedRepository {
     Feed(
       id: 1,
       user: User(
-        name: 'Rafi Ahmad', 
-        avatar: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRO_-QQfvULpMwmMSJcEBSWo-HmBNtn1XN0Aj1z3-JMY42F3Qys', 
-        place: 'Istana Negara'
+        name: 'skecth.bdg',
+      avatar: 'https://images.pexels.com/photos/29034031/pexels-photo-29034031/free-photo-of-serene-sheep-grazing-in-lush-meadow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', 
+      place: 'Bandung,Paris van jawa'
         ), 
       content: Content(
         isLike: false,
-        image: 'https://media.suara.com/pictures/653x366/2023/10/09/60452-keluarga-raffi-ahmad.jpg', 
-        likes: '1.2890 Likes', 
-        description: 'Keluargaku'
+        image: 'https://images.pexels.com/photos/10414204/pexels-photo-10414204.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      likes: '1000000 likes',
+      description: 'ad aps niyyy'
         )),
     Feed(
       id: 2,
       user: User(
-        name: 'Rafi Ahmad dan Nagita Slavina', 
-        avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4PonNbE4LBqFPdb4pwEbtItm4ECyEY3tRBdQgT96VbQ8m3NSWc5vf-8ovoZodeTKKiMU&usqp=CAU', 
-        place: 'Andara'
+        name: 'saglzer',
+      avatar: 'https://images.pexels.com/photos/28357757/pexels-photo-28357757/free-photo-of-workshop-de-fotografias-de-bodas.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', 
+      place: 'Bandung,Paris van jawa'
         ), 
       content: Content(
         isLike: false,
-        image: 'https://akcdn.detik.net.id/visual/2022/10/24/raffi-ahmad_43.jpeg?w=650&q=90', 
-        likes: '5.2890 Likes', 
-        description: 'Akuu ini'
+        image: 'https://images.pexels.com/photos/27545223/pexels-photo-27545223/free-photo-of-model-in-sweater-lying-on-grass.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      likes: '1000000 likes',
+      description: 'im with u'
         )),
     Feed(
       id: 3,
       user: User(
-        name: 'Rafatar', 
-        avatar: 'https://i1.wp.com/risetcdn.jatimtimes.com/images/2022/08/15/Rafathar-Malik-Ahmad-Pa689bbb24283e127.md.jpg?quality=50', 
-        place: 'Cangkuang'
+        name: 'nasi',
+      avatar: 'https://images.pexels.com/photos/29191749/pexels-photo-29191749/free-photo-of-traditional-farmer-in-rural-vietnamese-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', 
+      place: 'Bandung,Paris van jawa'
         ), 
       content: Content(
         isLike: false,
-        image: 'https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/81/2024/10/24/ilustrasi-for-rafi-ahmad-jadi-staff-khusus-presiden-633761062.png', 
-        likes: '67.2890 Likes', 
-        description: 'Bismillah dilantik'
+            image: 'https://images.pexels.com/photos/19640832/pexels-photo-19640832/free-photo-of-untitled.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      likes: '1234566767 likes',
+      description: 'EARTH IN MY FEED'
         )),
 
     

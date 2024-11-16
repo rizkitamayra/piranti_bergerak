@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'OurApp',
+        title: 'rIstagram',
         theme: ThemeData(
       
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.yellow),

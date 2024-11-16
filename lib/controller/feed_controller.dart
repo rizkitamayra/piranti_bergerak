@@ -6,6 +6,8 @@ class FeedController extends ChangeNotifier {
   List<Feed> feeds = FeedRepository().fetch();
   int get length => feeds.length;
 
+List<Feed>  get bookmarkedFeeds => feeds.where((Element) => Element.content.isBookmarked == true).toList();
+
   Feed feed(int index) {
     return feeds[index];
   }
