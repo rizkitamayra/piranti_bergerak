@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
         android:label="sesi44"
+=======
+        android:label="test4"
+>>>>>>> edc4c3625c05c88821f110ddfce3904683f2f3c6
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # sesi44
 
 A new Flutter project.
@@ -15,3 +16,8 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 "# pirantibergerak" 
+=======
+# test4
+nama  : Rizkita Mayra
+NRP   : 210514011
+>>>>>>> edc4c3625c05c88821f110ddfce3904683f2f3c6

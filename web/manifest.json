@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "sesi44",
     "short_name": "sesi44",
+=======
+    "name": "test4",
+    "short_name": "test4",
+>>>>>>> edc4c3625c05c88821f110ddfce3904683f2f3c6
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
